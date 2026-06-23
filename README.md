@@ -1,8 +1,17 @@
 # Image Commerce Plugin
 
-This repository contains the **Image Commerce Realism Skill**, a globally installable Codex plugin designed to act as an expert Amazon, Etsy, Shopify, KDP, and A+ Content image planning and prompt-generation assistant.
+This repository contains the **Image Commerce Realism Skill**, a globally installable plugin designed to act as an expert Amazon, Etsy, Shopify, KDP, and A+ Content image planning and prompt-generation assistant.
 
 It reverse-engineers product specifications and creates highly realistic, conversion-focused product image plans and prompts. The plugin operates using an isolated subagent so that it seamlessly triggers only when you are working on product image generation.
+
+## Compatibility
+
+This plugin is designed to seamlessly support and integrate with multiple AI agents and CLI frameworks, including:
+- **Codex**
+- **Claude Code**
+- **AGY CLI**
+- **Antigravity Agent**
+- Other compatible agentic AI CLIs
 
 ## Features
 
@@ -13,16 +22,32 @@ It reverse-engineers product specifications and creates highly realistic, conver
 
 ## Installation (Global Install)
 
-To install this plugin globally for Codex, clone this repository directly into the core Codex plugins configuration folder (`.gemini/config/plugins`). This ensures the skill and subagent are available across all your workspaces and projects.
+To install this plugin globally, clone this repository directly into your CLI's plugins configuration folder. This ensures the skill and subagent are available across all your workspaces and projects.
 
-### macOS / Linux
+### For Codex, AGY CLI & Antigravity
+
+**macOS / Linux:**
 ```bash
 git clone https://github.com/haseebgb92/image-commerce.git ~/.gemini/config/plugins/image-commerce-plugin
 ```
 
-### Windows
+**Windows:**
 ```powershell
 git clone https://github.com/haseebgb92/image-commerce.git "$env:USERPROFILE\.gemini\config\plugins\image-commerce-plugin"
+```
+
+### For Claude Code
+
+Clone the repository into your Claude Code custom tools or plugins directory (typically `~/.claude/plugins`):
+
+**macOS / Linux:**
+```bash
+git clone https://github.com/haseebgb92/image-commerce.git ~/.claude/plugins/image-commerce-plugin
+```
+
+**Windows:**
+```powershell
+git clone https://github.com/haseebgb92/image-commerce.git "$env:USERPROFILE\.claude\plugins\image-commerce-plugin"
 ```
 
 ## Usage
