@@ -26,7 +26,19 @@ This plugin is designed to seamlessly support and integrate with multiple AI age
 
 To install this plugin globally, clone this repository directly into your CLI's plugins configuration folder. This ensures the skill and subagent are available across all your workspaces and projects.
 
-### For Codex, AGY CLI & Antigravity
+### For Codex
+
+**macOS / Linux:**
+```bash
+git clone https://github.com/haseebgb92/image-commerce.git ~/.codex/skills/image-commerce-plugin
+```
+
+**Windows:**
+```powershell
+git clone https://github.com/haseebgb92/image-commerce.git "$env:USERPROFILE\.codex\skills\image-commerce-plugin"
+```
+
+### For AGY CLI & Antigravity
 
 **macOS / Linux:**
 ```bash
