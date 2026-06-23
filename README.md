@@ -1,8 +1,10 @@
 # Image Commerce Plugin
 
-This repository contains the **Image Commerce Realism Skill**, a globally installable plugin designed to act as an expert Amazon, Etsy, Shopify, KDP, and A+ Content image planning and prompt-generation assistant.
+This repository contains the **Image Commerce Realism Skill**, a globally installable plugin designed to act as an expert Amazon, Etsy, Shopify, KDP, and A+ Content image planning, prompt-generation, and **end-to-end image creation** assistant.
 
-It reverse-engineers product specifications and creates highly realistic, conversion-focused product image plans and prompts. The plugin operates using an isolated subagent so that it seamlessly triggers only when you are working on product image generation.
+Not only does this plugin generate highly detailed prompts, but on compatible platforms like Codex, it also **generates the images directly**. Codex and other capable agents use this skill to stay on course, utilizing their built-in tools to actively create realistic and consistent product images, A+ Content, and marketplace-ready photography. 
+
+It achieves this by reverse-engineering product specifications and using an isolated subagent so that it seamlessly triggers only when you are working on product image generation.
 
 ## Compatibility
 
