@@ -1,0 +1,13 @@
+{
+  "name": "image-commerce",
+  "version": "1.0.0",
+  "description": "Image Commerce Realism Skill and Subagent for creating highly realistic product images.",
+  "author": {
+    "name": "Muhammad Haseeb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haseebgb92/image-commerce.git"
+  },
+  "keywords": ["image", "commerce", "realism", "prompt", "subagent"]
+}
