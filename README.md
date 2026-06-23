@@ -1,6 +1,6 @@
 # Image Commerce Plugin
 
-This repository contains the **Image Commerce Realism Skill**, a globally installable Antigravity/Codex plugin designed to act as an expert Amazon, Etsy, Shopify, KDP, and A+ Content image planning and prompt-generation assistant.
+This repository contains the **Image Commerce Realism Skill**, a globally installable Codex plugin designed to act as an expert Amazon, Etsy, Shopify, KDP, and A+ Content image planning and prompt-generation assistant.
 
 It reverse-engineers product specifications and creates highly realistic, conversion-focused product image plans and prompts. The plugin operates using an isolated subagent so that it seamlessly triggers only when you are working on product image generation.
 
@@ -11,9 +11,9 @@ It reverse-engineers product specifications and creates highly realistic, conver
 - **Marketplace Safety Compliance**: Enforces safe padding, Amazon's pure white background rules, Etsy's lifestyle standards, and A+ content specifications.
 - **Subagent Architecture**: Isolates the specialized skill logic, activating automatically via the `image-commerce-agent` when needed.
 
-## Installation
+## Installation (Global Install)
 
-To install this plugin locally for your Antigravity Agent, clone this repository directly into your agent's plugins folder.
+To install this plugin globally for Codex, clone this repository directly into the core Codex plugins configuration folder (`.gemini/config/plugins`). This ensures the skill and subagent are available across all your workspaces and projects.
 
 ### macOS / Linux
 ```bash
